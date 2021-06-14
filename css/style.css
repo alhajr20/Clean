@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.header__logo {
+  width: 80px;
+}
+
+.header__logo img {
+  width: 100%;
+}
+
+.header__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__contact a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #435892;
+}
+
+.header__nav {
+  background-color: #435892;
+}
+
+.header__nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header__nav ul li {
+  padding: 10px 0;
+}
+
+.header__nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.promo__wrapper {
+  background: url("https://raeumungen.at/wp-content/themes/schimpf/dist/images/img-original.jpg") center center/cover no-repeat;
+  padding: 200px 100px;
+  text-align: center;
+  color: #435892;
+}
+
+.promo__wrapper p {
+  margin-top: 30px;
+}
+
+.promo__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 30px;
+}
+
+.promo__links a {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.promo__links a:first-child {
+  background-color: #fff;
+  color: #435892;
+}
+
+.promo__links a:first-child:hover {
+  background-color: #435892;
+  color: #fff;
+}
+
+.promo__links a:last-child {
+  background-color: #435892;
+  color: #fff;
+}
+
+.promo__links a:last-child:hover {
+  background-color: #fff;
+  color: #435892;
+}
+
+.advantages__wrapper {
+  margin-top: 30px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #435892;
+}
+
+.advantages__item {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.advantages__item h3 {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.about__wrapper {
+  margin-top: 30px;
+}
+
+.about__info img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about__info figcaption {
+  margin-top: 20px;
+}
+
+.about__info figcaption p {
+  line-height: 35px;
+  color: #435892;
+}
+
+.about__title {
+  text-align: center;
+  color: #435892;
+  margin-bottom: 30px;
+}
+
+.call__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #435892;
+  margin-top: 30px;
+  padding: 20px;
+  color: #fff;
+}
+
+.call__info, .call__btn {
+  width: 50%;
+}
+
+.call__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.call__btn a {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background-color: #fff;
+  color: #435892;
+}
+
+.services__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.services__item {
+  width: 30%;
+  text-align: center;
+  color: #435892;
+  -webkit-box-shadow: 0 0 10px #435892;
+          box-shadow: 0 0 10px #435892;
+  padding: 20px;
+}
+
+.services__item p {
+  margin-top: 5px;
+}
+
+.services__title {
+  text-align: center;
+  color: #435892;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */

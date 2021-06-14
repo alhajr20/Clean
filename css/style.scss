@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+$main-color: #435892;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    &__logo {
+        width: 80px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__contact {
+        display: flex;
+        align-items: center;
+        a {
+            font-size: 20px;
+            text-decoration: none;
+            color: $main-color;
+        }
+    }
+
+    &__nav {
+        background-color: $main-color;
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            li {
+                padding: 10px 0;
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.promo {
+    &__wrapper {
+        background: url('https://raeumungen.at/wp-content/themes/schimpf/dist/images/img-original.jpg') center center/cover no-repeat;
+        padding: 200px 100px;
+        text-align: center;
+        color: $main-color;
+
+        p {
+            margin-top: 30px;
+        }
+    }
+
+    &__links {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+
+        a {
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all .5s;
+        }
+
+        a:first-child {
+            background-color: #fff;
+            color: $main-color;
+
+            &:hover {
+                background-color: $main-color;
+                color: #fff;
+            }
+        }
+
+        a:last-child {
+            background-color: $main-color;
+            color: #fff;
+
+            &:hover {
+                background-color: #fff;
+                color: $main-color;
+            }
+        }
+    }
+}
+
+.advantages {
+    &__wrapper {
+        margin-top: 30px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        background-color: $main-color;
+    }
+
+    &__item {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+
+        h3 {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.about {
+    &__wrapper {
+        margin-top: 30px;
+    }
+
+    &__info {
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        figcaption {
+            margin-top: 20px;
+            p {
+                line-height: 35px;
+                color: $main-color;
+            }
+        }
+    }
+
+    &__title {
+        text-align: center;
+        color: $main-color;
+        margin-bottom: 30px;
+    }
+}
+
+.call {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        background-color: $main-color;
+        margin-top: 30px;
+        padding: 20px;
+        color: #fff;
+    }
+
+    &__info, &__btn {
+        width: 50%;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        a {
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all .5s;
+            background-color: #fff;
+            color: $main-color;
+        }
+    }
+}
+
+.services {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    &__item {
+        width: 30%;
+        text-align: center;
+        color: $main-color;
+        box-shadow: 0 0 10px $main-color;
+        padding: 20px;
+
+        p {
+            margin-top: 5px;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        color: $main-color;
+        margin-top: 30px;
+    }
+}
