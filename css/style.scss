@@ -329,8 +329,13 @@ body {
         box-shadow: 0 0 10px $main-color;
         padding: 20px;
 
+        h3 {
+            font-size: 12px;
+        }
+
         p {
             margin-top: 5px;
+            font-size: 12px;
         }
     }
 
